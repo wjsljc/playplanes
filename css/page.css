@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+img{
+	position: absolute;
+}
+ul,li{
+	list-style: none;
+}
+.contentDiv{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	width: 320px;
+	height: 568px;
+	margin-left: -160px;
+}
+.startDiv{
+	position: absolute;
+	width: 320px;
+	height: 568px;
+	background: url(../img/开始背景.png) no-repeat;
+}
+.startDiv button{
+	position: absolute;
+	top: 400px;
+	left: 110px;
+	width: 100px;
+	height: 50px;
+	border: 1px solid #000000;
+	background-color: #cccccc;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+}
+.mainDiv{
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 320px;
+	height: 568px;
+	background: url(../img/background_1.png) repeat-y;
+}
+.scoreDiv{
+	display: none;
+}
+.scoreDiv label{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.scoreDiv .num{
+	left: 56px;
+}
+.suspendDiv{
+	display: none;
+	position: absolute;
+	top: 200px;
+	left: 110px;
+	z-index: 8;
+}
+.suspendDiv button{
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	border: 1px solid #000000;
+	border-radius: 35px;
+	background-color: #cccccc;
+	outline: none;
+	cursor: pointer;
+}
+.endDiv{
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	z-index: 3;
+	top: 200px;
+	left: 80px;
+	width: 136px;
+	height: 130px;
+	padding: 28px 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #cccccc;
+}
+.endDiv input{
+	width: 80%;
+	margin: 0 auto;
+}
+.endDiv button{
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	border: 1px solid #000000;
+	border-radius: 35px;
+	background-color: #cccccc;
+	outline: none;
+	cursor: pointer;
+}

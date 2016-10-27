@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>飞机大战</title>
+		<link rel="stylesheet" type="text/css" href="css/page.css"/>
+	</head>
+	<body>
+		<div class="contentDiv" id="contentDiv">
+			<div class="startDiv" id="startDiv">
+				<ul>
+				</ul>
+				<button onclick="begin()">开始游戏</button>
+			</div>
+			<div class="mainDiv" id="mainDiv">
+				<div class="scoreDiv" id="scoreDiv">
+					<lable>分数：</lable>
+					<lable id="num" class="num">0</lable>
+				</div>
+				<div class="suspendDiv" id="suspendDiv">
+					<button>继续</button><br />
+					<button>重新开始</button><br />
+					<button>回到主页</button>
+				</div>
+				<div class="endDiv" id="endDiv">
+					<p>飞机大战分数：</p>
+					<p id="endScore">0分</p>
+					<p><button onclick="jixu()">继续</button></p>
+					<p>英雄，留下你的名字：</p>
+					<input type="text"  id="name"  placeholder="请英雄留下姓名！"/>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/page.js" type="text/javascript" charset="utf-8"></script>
+</html>
